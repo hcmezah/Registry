@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: registry-service
+    #configuración del config-server
+  cloud:
+    config:
+      uri: http://localhost:8090
+      username: nttdata
+      password: nttd4t4
+
